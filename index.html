@@ -35,7 +35,7 @@
           <figure class="logo-container">
             <img src="/assets/logo.png" alt="logo">
           </figure>
-          <ul id="sidebar">
+          <ul id="sidebar" aria-label="sidebar closed">
             <li>
               <a href="#" class = "text-icon-container">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -55,7 +55,7 @@
            </li>
 
             <li>
-              <a href="#" class = "text-icon-container">
+              <a href="#services" class = "text-icon-container">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
               </svg>
@@ -66,7 +66,7 @@
             </li>
 
             <li>
-              <a href="#" class = "text-icon-container">
+              <a href="#contact-us" class = "text-icon-container">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
               </svg>
@@ -107,14 +107,14 @@
 
     <main>
       <!-- =======OUR SERVICES SECTION ====== -->
-     <section class="services-section ">
+     <section id="services" class="services-section ">
       <div class="container">
            <h2 class="text-white text-center">
             Our services
            </h2>
            <div class="services-container">
 
-             <div>
+             <div class="service">
               <h3 class="text-center">Services offered</h3>
 
               <div class="single-service-container">
@@ -204,7 +204,7 @@
 
              </div>
 
-             <div>
+             <div class="service">
               <div>
                 <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
@@ -232,7 +232,7 @@
 
              </div>
 
-             <div>
+             <div class="service">
                 <div>
                   <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
@@ -253,6 +253,7 @@
                     Ideal for students who wants complete relocation. assistance
                   </p>
                 </div>
+
              </div>
 
            </div>
@@ -313,7 +314,7 @@
       </section>
 
       <!-- ============== CONTACT US SECTION ======= -->
-        <section class="contact-section">
+        <section id="contact-us" class="contact-section">
         <div class="contact-wrapper">
           <div class="contact-info">
             <h2>Contact Us</h2>
@@ -321,7 +322,7 @@
             <ul class="contact-details">
               <li><strong>Email:</strong>lolakemi508@gmail.com</li>
               <li><strong>Phone:</strong> +234905050798734</li>
-              <li><strong>Location:</strong> Istanbul, Turkey / Nigeria</li>
+              <li><strong>Location:</strong> Istanbul, Turkey</li>
             </ul>
           </div>
 
@@ -349,18 +350,32 @@
       <ul>
         <li><a href="#" class="text-white">Home</a></li>
         <li><a href="#" class="text-white">About Us</a></li>
-        <li><a href="#" class="text-white">Services</a></li>
-        <li><a href="#" class="text-white">Trip</a></li>
-        <li><a href="#" class="text-white">Contac Us</a></li>
+        <li><a href="#services" class="text-white">Services</a></li>
+        <li><a href="#contact-us" class="text-white">Contac Us</a></li>
       </ul>
     </div>
 
     <div class="footer-contact">
       <h4>Contact</h4>
       <ul>
-        <li><strong>Email:</strong> lolakemi508@gmail.com</li>
-        <li><strong>Phone:</strong> +234905050798734</li>
-        <li><strong>Location:</strong> Istanbul, Turkey / Nigeria</li>
+        <li>
+          <strong>Email:</strong>
+        <a href="mailto:lolakemi508@gmail.com">
+          lolakemi508@gmail.com
+        </a>
+      </li>
+        <li>
+          <strong>
+            Phone:
+          </strong>
+           +234905050798734
+        </li>
+        <li>
+          <strong>
+            Location:
+          </strong>
+           Istanbul, Turkey
+        </li>
       </ul>
     </div>
   </div>
