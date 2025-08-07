@@ -28,7 +28,10 @@
 <body>
 
 
-  <div>
+  <div class="wrapper">
+
+     <div class="pop-up-container hide ">
+    </div>
 
     <header>
         <nav>
@@ -92,7 +95,7 @@
               <p class="text-white">
                 With <em>Asomugha Agency</em> ✈️, your path to studying in Turkey is stress-free — from your first “hello” ❓ to your first lecture 🎓, we’re with you every step 🤝.
               </p>
-              <button class="register-btn text-icon-container">
+              <button class="register-btn text-icon-container js-register-btn">
                 <span>
                   Click to register
                 </span>
@@ -204,7 +207,7 @@
 
              </div>
 
-             <div class="service">
+             <div class="service" id="first-package">
               <div>
                 <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
@@ -320,18 +323,15 @@
             <h2>Contact Us</h2>
             <p class="contact-subtext">We typically reply within 24 hours. Feel free to reach out with any questions.</p>
             <ul class="contact-details">
-              <li><strong>Email:</strong>lolakemi508@gmail.com</li>
-              <li><strong>Phone:</strong> +234905050798734</li>
+              <li><strong>Phone:</strong> +905050798734</li>
               <li><strong>Location:</strong> Istanbul, Turkey</li>
             </ul>
+            <br>
+            <a href="mailto:lolakemi508@gmail.com" class="email-us-link">
+              Email 
+            </a>
           </div>
 
-          <form class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-          </form>
         </div>
         </section>
     </main>
@@ -351,7 +351,7 @@
         <li><a href="#" class="text-white">Home</a></li>
         <li><a href="#" class="text-white">About Us</a></li>
         <li><a href="#services" class="text-white">Services</a></li>
-        <li><a href="#contact-us" class="text-white">Contac Us</a></li>
+        <li><a href="mailto:lolakemi508@gmail.com" class="text-white">Contac Us</a></li>
       </ul>
     </div>
 
@@ -359,16 +359,15 @@
       <h4>Contact</h4>
       <ul>
         <li>
-          <strong>Email:</strong>
         <a href="mailto:lolakemi508@gmail.com">
-          lolakemi508@gmail.com
+         Email:
         </a>
       </li>
         <li>
           <strong>
             Phone:
           </strong>
-           +234905050798734
+           +905050798734
         </li>
         <li>
           <strong>
@@ -391,7 +390,7 @@
 
 
   </div>
-
-  <script src="scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="module" src="scripts.js"></script>
 </body>
 </html>
